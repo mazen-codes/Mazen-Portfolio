@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mazen Shahbunder | Portfolio</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --dark: #0f172a;
+            --gray: #475569;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--dark);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 24px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: var(--dark);
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .contact-info a {
+            color: var(--gray);
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: 500;
+        }
+
+        .contact-info a:hover {
+            color: var(--primary);
+        }
+
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--dark);
+            border-left: 4px solid var(--primary);
+            padding-left: 10px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .timeline-item {
+            margin-bottom: 20px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+        }
+
+        .item-title {
+            font-weight: bold;
+            font-size: 1.05rem;
+            color: var(--dark);
+        }
+
+        .item-date {
+            font-size: 0.9rem;
+            color: var(--gray);
+            font-style: italic;
+        }
+
+        .item-subtitle {
+            color: var(--primary);
+            font-size: 0.95rem;
+            margin-bottom: 6px;
+        }
+
+        ul {
+            padding-left: 20px;
+            color: var(--gray);
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-card {
+            background: #f1f5f9;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .skill-card h3 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+            color: var(--dark);
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--gray);
+            margin-top: 40px;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Mazen Hesham Ibrahim Shahbunder</h1>
+        <p class="subtitle">Undergraduate Computer and Artificial Intelligence Engineer</p>
+        <div class="contact-info">
+            <a href="tel:+01006508860">📞 +01006508860</a> | 
+            <a href="mailto:mazenhi1106@gmail.com">📧 mazenhi1106@gmail.com</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Motivated Computer Engineer student with a strong foundation in programming, object-oriented designs, and hardware-software connections. Experienced in self-learning technologies and applying theoretical knowledge to practical projects.</p>
+    </section>
+
+    <section>
+        <h2>Training & Experience</h2>
+        
+        <div class="timeline-item">
+            <div class="item-header">
+                <span class="item-title">Full Stack Developer Trainee</span>
+                <span class="item-date">July 2026 – Present</span>
+            </div>
+            <div class="item-subtitle">DEPI</div>
+            <ul>
+                <li>Developing end-to-end web applications by integrating responsive front-end user interfaces with back-end APIs and structured database architectures.</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item">
+            <div class="item-header">
+                <span class="item-title">Network and Cybersecurity Trainee</span>
+                <span class="item-date">August 2026 – Present</span>
+            </div>
+            <div class="item-subtitle">EgyptAir</div>
+            <ul>
+                <li>Configuring network switches, managing IP addressing and subnetting, analyzing network traffic across OSI layers, and configuring firewall rules to enhance system security.</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item">
+            <div class="item-header">
+                <span class="item-title">Linux Administration Trainee</span>
+                <span class="item-date">August 2026 – Present</span>
+            </div>
+            <div class="item-subtitle">Edges</div>
+            <ul>
+                <li>Acquired hands-on experience in Linux system navigation, bash scripting, file system management, user permission administration, and network configuration.</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item">
+            <div class="item-header">
+                <span class="item-title">Embedded Systems Trainee</span>
+                <span class="item-date">July – August 2025</span>
+            </div>
+            <div class="item-subtitle">Edges</div>
+            <ul>
+                <li>Gained a deep understanding of hardware-software integration, low-level programming, and real-time system behavior.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="timeline-item">
+            <div class="item-header">
+                <span class="item-title">Bachelor of Computer and Artificial Intelligence Engineering</span>
+                <span class="item-date">2024 – 2028 (Expected)</span>
+            </div>
+            <p>Cumulative Grade (Up to Third Level): Very Good – 73%</p>
+        </div>
+        <div class="timeline-item">
+            <div class="item-header">
+                <span class="item-title">Saint Fatima International School</span>
+                <span class="item-date">2023 – 2024</span>
+            </div>
+            <p>Cumulative Grade: Excellent – 100%</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Courses & Technical Skillset</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Python & Data</h3>
+                <p>Syntax, data structures, file handling, libraries, basic data processing.</p>
+            </div>
+            <div class="skill-card">
+                <h3>OOP & Software</h3>
+                <p>C++, C#, Java. Encapsulation, inheritance, polymorphism, abstraction, class design.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Databases (SQL)</h3>
+                <p>Relational database concepts, queries, data manipulation, table structures.</p>
+            </div>
+            <div class="skill-card">
+                <h3>AI & Machine Learning</h3>
+                <p>Supervised/unsupervised learning, data preprocessing, feature engineering, predictive modeling.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Tools & Technical Applications</h2>
+        <ul>
+            <li><strong>Engineering & Design Tools:</strong> TinkerCAD, Logisim Evolution</li>
+            <li><strong>Productivity & Media:</strong> Microsoft Office (Word, Excel, PowerPoint), Adobe Photoshop, Adobe Premiere Pro</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Languages</h2>
+        <ul>
+            <li><strong>Arabic:</strong> Native Language</li>
+            <li><strong>English:</strong> Excellent (Reading, Writing, Listening, Speaking)</li>
+            <li><strong>French:</strong> Beginner</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2026 Mazen Hesham Ibrahim Shahbunder. All Rights Reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
